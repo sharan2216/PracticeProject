@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 25 22:55:32 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29532 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Tests.Flipkart.TestFlipkartSearch()'><b>TestFlipkartSearch</b><br>Test class: com.Tests.Flipkart<br/>
+<a href="#Output-1045997582" onClick='toggleBox("Output-1045997582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1045997582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1045997582">
+TC to test Flipkart Search functioanlity started<br/>
+Chrome Invoked and navigated to URL: https://www.flipkart.com<br><br/>
+Page Navigated.<br><br/>
+Sign In Window Closed.<br><br/>
+Search Box is displayed.<br><br/>
+Search Box set with value :Tv and search results displayed<br><br/>
+Product Name and price fetched from UI and saved in HashMap as:{22499=Mi 4A Pro 108 cm (43) Full HD LED Smart Android TV With Google Data Saver, 84999=Samsung The Frame 138cm (55 inch) Ultra HD (4K) QLED Smart TV, 24999=OnePlus Y Series 108cm (43 inch) Full HD LED Smart Android TV, 14990=Samsung 80cm (32 inch) HD Ready LED Smart TV 2020 Edition, 25999=Mi 4X 108 cm (43) Ultra HD (4K) LED Smart Android TV, 13999=Mi 4A Horizon Edition 80 cm (32) HD Ready LED Smart Android TV, 41999=Motorola Revou 139cm (55 inch) Ultra HD (4K) LED Smart Android TV with Dolby Atmos and Dolby Vision, 14799=Vu Premium 80cm (32 inch) HD Ready LED Smart Android TV, 12499=Thomson 9A Series 80cm (32 inch) HD Ready LED Smart Android TV, 28980=LG 108cm (43 inch) Full HD LED Smart TV 2020 Edition, 18999=Mi 4A 100 cm (40) Full HD LED Smart Android TV With Google Data Saver, 14999=OnePlus Y Series 80cm (32 inch) HD Ready LED Smart Android TV, 13499=Mi 4A PRO 80 cm (32) HD Ready LED Smart Android TV With Google Data Saver, 139999=Samsung The Frame 163cm (65 inch) Ultra HD (4K) QLED Smart TV, 99999=Samsung 163cm (65 inch) Ultra HD (4K) LED Smart TV, 48990=Samsung 125cm (50 inch) Ultra HD (4K) LED Smart TV, 31999=Samsung 108cm (43 inch) Full HD LED Smart TV, 15999=Samsung 80cm (32 inch) HD Ready LED Smart TV 2020 Edition with Voice Search, 23999=iFFALCON by TCL AI Powered K31 108cm (43 inch) Ultra HD (4K) LED Smart Android TV with HDR 10}<br><br/>
+High Product Price is: 139999 Product name is: Samsung The Frame 163cm (65 inch) Ultra HD (4K) QLED Smart TV<br/>
+Low Product Price is: 12499 Product name is: Thomson 9A Series 80cm (32 inch) HD Ready LED Smart Android TV<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.Tests.Flipkart@6973bf95</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC to test Flipkart Search functioanlity started]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Invoked and navigated to URL: https://www.flipkart.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Page Navigated.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Window Closed.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search Box is displayed.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Search Box set with value :Tv and search results displayed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Product Name and price fetched from UI and saved in HashMap as:{22499=Mi 4A Pro 108 cm (43) Full HD LED Smart Android TV With Google Data Saver, 84999=Samsung The Frame 138cm (55 inch) Ultra HD (4K) QLED Smart TV, 24999=OnePlus Y Series 108cm (43 inch) Full HD LED Smart Android TV, 14990=Samsung 80cm (32 inch) HD Ready LED Smart TV 2020 Edition, 25999=Mi 4X 108 cm (43) Ultra HD (4K) LED Smart Android TV, 13999=Mi 4A Horizon Edition 80 cm (32) HD Ready LED Smart Android TV, 41999=Motorola Revou 139cm (55 inch) Ultra HD (4K) LED Smart Android TV with Dolby Atmos and Dolby Vision, 14799=Vu Premium 80cm (32 inch) HD Ready LED Smart Android TV, 12499=Thomson 9A Series 80cm (32 inch) HD Ready LED Smart Android TV, 28980=LG 108cm (43 inch) Full HD LED Smart TV 2020 Edition, 18999=Mi 4A 100 cm (40) Full HD LED Smart Android TV With Google Data Saver, 14999=OnePlus Y Series 80cm (32 inch) HD Ready LED Smart Android TV, 13499=Mi 4A PRO 80 cm (32) HD Ready LED Smart Android TV With Google Data Saver, 139999=Samsung The Frame 163cm (65 inch) Ultra HD (4K) QLED Smart TV, 99999=Samsung 163cm (65 inch) Ultra HD (4K) LED Smart TV, 48990=Samsung 125cm (50 inch) Ultra HD (4K) LED Smart TV, 31999=Samsung 108cm (43 inch) Full HD LED Smart TV, 15999=Samsung 80cm (32 inch) HD Ready LED Smart TV 2020 Edition with Voice Search, 23999=iFFALCON by TCL AI Powered K31 108cm (43 inch) Ultra HD (4K) LED Smart Android TV with HDR 10}<br>]]>
+    </line>
+    <line>
+      <![CDATA[High Product Price is: 139999 Product name is: Samsung The Frame 163cm (65 inch) Ultra HD (4K) QLED Smart TV]]>
+    </line>
+    <line>
+      <![CDATA[Low Product Price is: 12499 Product name is: Thomson 9A Series 80cm (32 inch) HD Ready LED Smart Android TV]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-11-25T22:55:32 IST" name="Default suite" finished-at="2020-11-25T22:56:01 IST" duration-ms="29532">
+    <groups>
+    </groups>
+    <test started-at="2020-11-25T22:55:32 IST" name="Default test" finished-at="2020-11-25T22:56:01 IST" duration-ms="29532">
+      <class name="com.Tests.Flipkart">
+        <test-method signature="TestFlipkartSearch()[pri:0, instance:com.Tests.Flipkart@6973bf95]" started-at="2020-11-25T22:55:32 IST" name="TestFlipkartSearch" finished-at="2020-11-25T22:56:01 IST" duration-ms="29473" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC to test Flipkart Search functioanlity started]]>
+            </line>
+            <line>
+              <![CDATA[Chrome Invoked and navigated to URL: https://www.flipkart.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Page Navigated.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign In Window Closed.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search Box is displayed.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Search Box set with value :Tv and search results displayed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Product Name and price fetched from UI and saved in HashMap as:{22499=Mi 4A Pro 108 cm (43) Full HD LED Smart Android TV With Google Data Saver, 84999=Samsung The Frame 138cm (55 inch) Ultra HD (4K) QLED Smart TV, 24999=OnePlus Y Series 108cm (43 inch) Full HD LED Smart Android TV, 14990=Samsung 80cm (32 inch) HD Ready LED Smart TV 2020 Edition, 25999=Mi 4X 108 cm (43) Ultra HD (4K) LED Smart Android TV, 13999=Mi 4A Horizon Edition 80 cm (32) HD Ready LED Smart Android TV, 41999=Motorola Revou 139cm (55 inch) Ultra HD (4K) LED Smart Android TV with Dolby Atmos and Dolby Vision, 14799=Vu Premium 80cm (32 inch) HD Ready LED Smart Android TV, 12499=Thomson 9A Series 80cm (32 inch) HD Ready LED Smart Android TV, 28980=LG 108cm (43 inch) Full HD LED Smart TV 2020 Edition, 18999=Mi 4A 100 cm (40) Full HD LED Smart Android TV With Google Data Saver, 14999=OnePlus Y Series 80cm (32 inch) HD Ready LED Smart Android TV, 13499=Mi 4A PRO 80 cm (32) HD Ready LED Smart Android TV With Google Data Saver, 139999=Samsung The Frame 163cm (65 inch) Ultra HD (4K) QLED Smart TV, 99999=Samsung 163cm (65 inch) Ultra HD (4K) LED Smart TV, 48990=Samsung 125cm (50 inch) Ultra HD (4K) LED Smart TV, 31999=Samsung 108cm (43 inch) Full HD LED Smart TV, 15999=Samsung 80cm (32 inch) HD Ready LED Smart TV 2020 Edition with Voice Search, 23999=iFFALCON by TCL AI Powered K31 108cm (43 inch) Ultra HD (4K) LED Smart Android TV with HDR 10}<br>]]>
+            </line>
+            <line>
+              <![CDATA[High Product Price is: 139999 Product name is: Samsung The Frame 163cm (65 inch) Ultra HD (4K) QLED Smart TV]]>
+            </line>
+            <line>
+              <![CDATA[Low Product Price is: 12499 Product name is: Thomson 9A Series 80cm (32 inch) HD Ready LED Smart Android TV]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestFlipkartSearch -->
+      </class> <!-- com.Tests.Flipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
