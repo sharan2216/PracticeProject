@@ -1,3 +1,4 @@
+//login page details
 package com.Pages;
 
 //import org.openqa.selenium.By;
@@ -7,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 	WebDriver driver;
+	
 	
 	public LoginPage(WebDriver ldriver)
 	{
